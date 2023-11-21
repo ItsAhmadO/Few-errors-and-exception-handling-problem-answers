@@ -1,0 +1,16 @@
+if __name__ == '__main__':
+    def ask():
+        while True:
+            try:
+                number = int(input("GIVE ME AN INTEGER: "))
+                print(number ** 2)
+            except:
+                print("THATS NOT AN INTEGER")
+                continue
+            else:
+                print("nice integer")
+                break
+            pass
+
+
+    ask()
